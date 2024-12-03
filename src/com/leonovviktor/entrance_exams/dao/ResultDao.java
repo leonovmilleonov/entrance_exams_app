@@ -124,7 +124,7 @@ public class ResultDao {
         }
     }
 
-    private static ResultDao getInstance() {
+    public static ResultDao getInstance() {
         return INSTANCE;
 
     }
